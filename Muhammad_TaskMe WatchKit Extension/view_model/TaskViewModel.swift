@@ -9,11 +9,10 @@ import Foundation
 
 class TaskViewModel : ObservableObject{
     @Published var taskList = [Task]()
-    @Published var boredURLString: String = #"http://www.boredapi.com/api/activity"#
+    @Published var boredURLString: String = #"https://www.boredapi.com/api/activity"#
 
-    func fetchDataFromAPI(lat: Double, lon: Double){
-        
-        //boredURLString = String(format: boredURLString, lat, lon, self.access_id, self.secret_key)
+    func fetchDataFromAPI(){
+
         
         print(#function, "url is \(boredURLString)")
         
