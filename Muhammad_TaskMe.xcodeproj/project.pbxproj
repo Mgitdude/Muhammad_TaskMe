@@ -20,6 +20,7 @@
 		C6328CB32583FF4700AD4F28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6328CB22583FF4700AD4F28 /* Assets.xcassets */; };
 		C6328CB62583FF4700AD4F28 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6328CB52583FF4700AD4F28 /* Preview Assets.xcassets */; };
 		C6328CCB258401A500AD4F28 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6328CCA258401A500AD4F28 /* Task.swift */; };
+		C6328CD12584038900AD4F28 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6328CD02584038900AD4F28 /* TaskViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		C6328CB72583FF4700AD4F28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6328CB82583FF4700AD4F28 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		C6328CCA258401A500AD4F28 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		C6328CD02584038900AD4F28 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 		C6328CA52583FF4600AD4F28 /* Muhammad_TaskMe WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				C6328CCF2584037800AD4F28 /* view_model */,
 				C6328CC92584018200AD4F28 /* model */,
 				C6328CA62583FF4600AD4F28 /* HostingController.swift */,
 				C6328CA82583FF4600AD4F28 /* ContentView.swift */,
@@ -156,6 +159,14 @@
 				C6328CCA258401A500AD4F28 /* Task.swift */,
 			);
 			path = model;
+			sourceTree = "<group>";
+		};
+		C6328CCF2584037800AD4F28 /* view_model */ = {
+			isa = PBXGroup;
+			children = (
+				C6328CD02584038900AD4F28 /* TaskViewModel.swift */,
+			);
+			path = view_model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,6 +301,7 @@
 				C6328CAD2583FF4600AD4F28 /* NotificationController.swift in Sources */,
 				C6328CAB2583FF4600AD4F28 /* ExtensionDelegate.swift in Sources */,
 				C6328CAF2583FF4600AD4F28 /* NotificationView.swift in Sources */,
+				C6328CD12584038900AD4F28 /* TaskViewModel.swift in Sources */,
 				C6328CCB258401A500AD4F28 /* Task.swift in Sources */,
 				C6328CB12583FF4600AD4F28 /* ComplicationController.swift in Sources */,
 			);
