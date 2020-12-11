@@ -37,7 +37,7 @@ struct ContentView: View {
 
                 }) {
                     Text("Suggest me an activity")
-                        .accentColor(Color.green)
+                        .foregroundColor(Color.green)
                         .padding()
                         .background(Color.gray)
                         .cornerRadius(5.0)
