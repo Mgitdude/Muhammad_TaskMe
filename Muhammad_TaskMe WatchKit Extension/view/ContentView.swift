@@ -19,7 +19,7 @@ struct ContentView: View {
 
                         HStack{
                             Text(self.taskViewModel.taskList[0].activity ?? "No activity found")
-                                .font(.title)
+                              
                                 .foregroundColor(Color.yellow)
                         }
 
@@ -36,7 +36,7 @@ struct ContentView: View {
             }
                 
                 Button(action: {
-                    //my action
+                    taskViewModel.fetchDataFromAPI()
                     
 
                 }) {
