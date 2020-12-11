@@ -23,12 +23,8 @@ struct ContentView: View {
                                 .foregroundColor(Color.yellow)
                         }
 
-                        
-                        
-
                     }
-                    
-                //}
+
                 
             }else{
                 Text("No activity data. Try pressing the button below")
@@ -49,8 +45,8 @@ struct ContentView: View {
 
 
           }
-            .navigationBarTitle(Text("Muhammad Usman Shahid"))
-            //end of body
+            .navigationBarTitle(Text("Muhammad"))
+
         }.onAppear(){
             
             taskViewModel.fetchDataFromAPI()
