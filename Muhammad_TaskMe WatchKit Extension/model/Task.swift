@@ -8,13 +8,11 @@
 import Foundation
 
 struct Task: Codable{
-    //var id: ObjectIdentifier
     
     var activity: String?
 
     
     init() {
-        //id = nil
         activity = nil
     }
     
