@@ -129,10 +129,10 @@
 		C6328CA52583FF4600AD4F28 /* Muhammad_TaskMe WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				C6328CD52584055700AD4F28 /* view */,
 				C6328CCF2584037800AD4F28 /* view_model */,
 				C6328CC92584018200AD4F28 /* model */,
 				C6328CA62583FF4600AD4F28 /* HostingController.swift */,
-				C6328CA82583FF4600AD4F28 /* ContentView.swift */,
 				C6328CAA2583FF4600AD4F28 /* ExtensionDelegate.swift */,
 				C6328CAC2583FF4600AD4F28 /* NotificationController.swift */,
 				C6328CAE2583FF4600AD4F28 /* NotificationView.swift */,
@@ -167,6 +167,14 @@
 				C6328CD02584038900AD4F28 /* TaskViewModel.swift */,
 			);
 			path = view_model;
+			sourceTree = "<group>";
+		};
+		C6328CD52584055700AD4F28 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				C6328CA82583FF4600AD4F28 /* ContentView.swift */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
