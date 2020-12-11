@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6328C932583FF4500AD4F28 /* Muhammad_TaskMe WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C6328C922583FF4500AD4F28 /* Muhammad_TaskMe WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C6328C992583FF4500AD4F28 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6328C972583FF4500AD4F28 /* Interface.storyboard */; };
+		C6328C9B2583FF4600AD4F28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6328C9A2583FF4600AD4F28 /* Assets.xcassets */; };
+		C6328CA22583FF4600AD4F28 /* Muhammad_TaskMe WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C6328CA12583FF4600AD4F28 /* Muhammad_TaskMe WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C6328CA72583FF4600AD4F28 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6328CA62583FF4600AD4F28 /* HostingController.swift */; };
+		C6328CA92583FF4600AD4F28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6328CA82583FF4600AD4F28 /* ContentView.swift */; };
+		C6328CAB2583FF4600AD4F28 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6328CAA2583FF4600AD4F28 /* ExtensionDelegate.swift */; };
+		C6328CAD2583FF4600AD4F28 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6328CAC2583FF4600AD4F28 /* NotificationController.swift */; };
+		C6328CAF2583FF4600AD4F28 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6328CAE2583FF4600AD4F28 /* NotificationView.swift */; };
+		C6328CB12583FF4600AD4F28 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6328CB02583FF4600AD4F28 /* ComplicationController.swift */; };
+		C6328CB32583FF4700AD4F28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6328CB22583FF4700AD4F28 /* Assets.xcassets */; };
+		C6328CB62583FF4700AD4F28 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6328CB52583FF4700AD4F28 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6328C942583FF4500AD4F28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6328C882583FF4500AD4F28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6328C912583FF4500AD4F28;
+			remoteInfo = "Muhammad_TaskMe WatchKit App";
+		};
+		C6328CA32583FF4600AD4F28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6328C882583FF4500AD4F28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6328CA02583FF4600AD4F28;
+			remoteInfo = "Muhammad_TaskMe WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C6328CBE2583FF4700AD4F28 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C6328CA22583FF4600AD4F28 /* Muhammad_TaskMe WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6328CC22583FF4700AD4F28 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C6328C932583FF4500AD4F28 /* Muhammad_TaskMe WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C6328C8E2583FF4500AD4F28 /* Muhammad_TaskMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Muhammad_TaskMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6328C922583FF4500AD4F28 /* Muhammad_TaskMe WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Muhammad_TaskMe WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6328C982583FF4500AD4F28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C6328C9A2583FF4600AD4F28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6328C9C2583FF4600AD4F28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6328CA12583FF4600AD4F28 /* Muhammad_TaskMe WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Muhammad_TaskMe WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6328CA62583FF4600AD4F28 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		C6328CA82583FF4600AD4F28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C6328CAA2583FF4600AD4F28 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		C6328CAC2583FF4600AD4F28 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		C6328CAE2583FF4600AD4F28 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		C6328CB02583FF4600AD4F28 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		C6328CB22583FF4700AD4F28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6328CB52583FF4700AD4F28 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C6328CB72583FF4700AD4F28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6328CB82583FF4700AD4F28 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6328C9E2583FF4600AD4F28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6328C872583FF4500AD4F28 = {
+			isa = PBXGroup;
+			children = (
+				C6328C962583FF4500AD4F28 /* Muhammad_TaskMe WatchKit App */,
+				C6328CA52583FF4600AD4F28 /* Muhammad_TaskMe WatchKit Extension */,
+				C6328C8F2583FF4500AD4F28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6328C8F2583FF4500AD4F28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6328C8E2583FF4500AD4F28 /* Muhammad_TaskMe.app */,
+				C6328C922583FF4500AD4F28 /* Muhammad_TaskMe WatchKit App.app */,
+				C6328CA12583FF4600AD4F28 /* Muhammad_TaskMe WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6328C962583FF4500AD4F28 /* Muhammad_TaskMe WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C6328C972583FF4500AD4F28 /* Interface.storyboard */,
+				C6328C9A2583FF4600AD4F28 /* Assets.xcassets */,
+				C6328C9C2583FF4600AD4F28 /* Info.plist */,
+			);
+			path = "Muhammad_TaskMe WatchKit App";
+			sourceTree = "<group>";
+		};
+		C6328CA52583FF4600AD4F28 /* Muhammad_TaskMe WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C6328CA62583FF4600AD4F28 /* HostingController.swift */,
+				C6328CA82583FF4600AD4F28 /* ContentView.swift */,
+				C6328CAA2583FF4600AD4F28 /* ExtensionDelegate.swift */,
+				C6328CAC2583FF4600AD4F28 /* NotificationController.swift */,
+				C6328CAE2583FF4600AD4F28 /* NotificationView.swift */,
+				C6328CB02583FF4600AD4F28 /* ComplicationController.swift */,
+				C6328CB22583FF4700AD4F28 /* Assets.xcassets */,
+				C6328CB72583FF4700AD4F28 /* Info.plist */,
+				C6328CB82583FF4700AD4F28 /* PushNotificationPayload.apns */,
+				C6328CB42583FF4700AD4F28 /* Preview Content */,
+			);
+			path = "Muhammad_TaskMe WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		C6328CB42583FF4700AD4F28 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C6328CB52583FF4700AD4F28 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6328C8D2583FF4500AD4F28 /* Muhammad_TaskMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6328CC32583FF4700AD4F28 /* Build configuration list for PBXNativeTarget "Muhammad_TaskMe" */;
+			buildPhases = (
+				C6328C8C2583FF4500AD4F28 /* Resources */,
+				C6328CC22583FF4700AD4F28 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6328C952583FF4500AD4F28 /* PBXTargetDependency */,
+			);
+			name = Muhammad_TaskMe;
+			productName = Muhammad_TaskMe;
+			productReference = C6328C8E2583FF4500AD4F28 /* Muhammad_TaskMe.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		C6328C912583FF4500AD4F28 /* Muhammad_TaskMe WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6328CBF2583FF4700AD4F28 /* Build configuration list for PBXNativeTarget "Muhammad_TaskMe WatchKit App" */;
+			buildPhases = (
+				C6328C902583FF4500AD4F28 /* Resources */,
+				C6328CBE2583FF4700AD4F28 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6328CA42583FF4600AD4F28 /* PBXTargetDependency */,
+			);
+			name = "Muhammad_TaskMe WatchKit App";
+			productName = "Muhammad_TaskMe WatchKit App";
+			productReference = C6328C922583FF4500AD4F28 /* Muhammad_TaskMe WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C6328CA02583FF4600AD4F28 /* Muhammad_TaskMe WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6328CBB2583FF4700AD4F28 /* Build configuration list for PBXNativeTarget "Muhammad_TaskMe WatchKit Extension" */;
+			buildPhases = (
+				C6328C9D2583FF4600AD4F28 /* Sources */,
+				C6328C9E2583FF4600AD4F28 /* Frameworks */,
+				C6328C9F2583FF4600AD4F28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Muhammad_TaskMe WatchKit Extension";
+			productName = "Muhammad_TaskMe WatchKit Extension";
+			productReference = C6328CA12583FF4600AD4F28 /* Muhammad_TaskMe WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6328C882583FF4500AD4F28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					C6328C8D2583FF4500AD4F28 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					C6328C912583FF4500AD4F28 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					C6328CA02583FF4600AD4F28 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = C6328C8B2583FF4500AD4F28 /* Build configuration list for PBXProject "Muhammad_TaskMe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6328C872583FF4500AD4F28;
+			productRefGroup = C6328C8F2583FF4500AD4F28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6328C8D2583FF4500AD4F28 /* Muhammad_TaskMe */,
+				C6328C912583FF4500AD4F28 /* Muhammad_TaskMe WatchKit App */,
+				C6328CA02583FF4600AD4F28 /* Muhammad_TaskMe WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6328C8C2583FF4500AD4F28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6328C902583FF4500AD4F28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6328C9B2583FF4600AD4F28 /* Assets.xcassets in Resources */,
+				C6328C992583FF4500AD4F28 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6328C9F2583FF4600AD4F28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6328CB62583FF4700AD4F28 /* Preview Assets.xcassets in Resources */,
+				C6328CB32583FF4700AD4F28 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6328C9D2583FF4600AD4F28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6328CA92583FF4600AD4F28 /* ContentView.swift in Sources */,
+				C6328CA72583FF4600AD4F28 /* HostingController.swift in Sources */,
+				C6328CAD2583FF4600AD4F28 /* NotificationController.swift in Sources */,
+				C6328CAB2583FF4600AD4F28 /* ExtensionDelegate.swift in Sources */,
+				C6328CAF2583FF4600AD4F28 /* NotificationView.swift in Sources */,
+				C6328CB12583FF4600AD4F28 /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6328C952583FF4500AD4F28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6328C912583FF4500AD4F28 /* Muhammad_TaskMe WatchKit App */;
+			targetProxy = C6328C942583FF4500AD4F28 /* PBXContainerItemProxy */;
+		};
+		C6328CA42583FF4600AD4F28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6328CA02583FF4600AD4F28 /* Muhammad_TaskMe WatchKit Extension */;
+			targetProxy = C6328CA32583FF4600AD4F28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6328C972583FF4500AD4F28 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6328C982583FF4500AD4F28 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6328CB92583FF4700AD4F28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C6328CBA2583FF4700AD4F28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6328CBC2583FF4700AD4F28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Muhammad_TaskMe WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 8L69HN8686;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Muhammad_TaskMe WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shahid2.Muhammad-TaskMe.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Debug;
+		};
+		C6328CBD2583FF4700AD4F28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Muhammad_TaskMe WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 8L69HN8686;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Muhammad_TaskMe WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shahid2.Muhammad-TaskMe.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Release;
+		};
+		C6328CC02583FF4700AD4F28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8L69HN8686;
+				IBSC_MODULE = Muhammad_TaskMe_WatchKit_Extension;
+				INFOPLIST_FILE = "Muhammad_TaskMe WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shahid2.Muhammad-TaskMe.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Debug;
+		};
+		C6328CC12583FF4700AD4F28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8L69HN8686;
+				IBSC_MODULE = Muhammad_TaskMe_WatchKit_Extension;
+				INFOPLIST_FILE = "Muhammad_TaskMe WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shahid2.Muhammad-TaskMe.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Release;
+		};
+		C6328CC42583FF4700AD4F28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8L69HN8686;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shahid2.Muhammad-TaskMe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C6328CC52583FF4700AD4F28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8L69HN8686;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shahid2.Muhammad-TaskMe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6328C8B2583FF4500AD4F28 /* Build configuration list for PBXProject "Muhammad_TaskMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6328CB92583FF4700AD4F28 /* Debug */,
+				C6328CBA2583FF4700AD4F28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6328CBB2583FF4700AD4F28 /* Build configuration list for PBXNativeTarget "Muhammad_TaskMe WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6328CBC2583FF4700AD4F28 /* Debug */,
+				C6328CBD2583FF4700AD4F28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6328CBF2583FF4700AD4F28 /* Build configuration list for PBXNativeTarget "Muhammad_TaskMe WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6328CC02583FF4700AD4F28 /* Debug */,
+				C6328CC12583FF4700AD4F28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6328CC32583FF4700AD4F28 /* Build configuration list for PBXNativeTarget "Muhammad_TaskMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6328CC42583FF4700AD4F28 /* Debug */,
+				C6328CC52583FF4700AD4F28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6328C882583FF4500AD4F28 /* Project object */;
+}
